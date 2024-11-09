@@ -3,6 +3,9 @@ const bodyParser = require('body-parser');
 const extractTextFromPDF = require('./pdf');
 const responsecreate = require('./parse');
 const resume =require("./aicontent");
+const summary = require("./summary");
+const jobdes = require("./jobdes");
+const skill = require("./skill");
 var cors = require('cors');
 
 const app = express();
